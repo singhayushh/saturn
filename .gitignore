@@ -6,8 +6,7 @@ logs
 # Dependency directories
 node_modules/
 
-# TypeScript declaration files
-typings/
+# package lock
 package-lock.json
 
 # Optional npm cache directory
