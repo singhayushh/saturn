@@ -15,4 +15,14 @@ npx tsc --init
 
 # opened and edited tsconfig.json
 
-# 
+# created directory structure
+mkdir typings
+
+# I created a small bash script that would generate each of the directories with required subdirectories and files
+sh directory.sh
+
+# pushed the directory structure
+cd ../
+git add .
+git commit -m "chore: setup project directory"
+git push

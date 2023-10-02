@@ -6,6 +6,7 @@
 - [About](#about)
 - [Features](#features)
 - [Getting Started](#getting-started)
+- [Directory structure](#directory-structure)
 - [Usage](#usage)
 - [History](#history)
 - [License](#license)
@@ -32,6 +33,20 @@ To get started with Saturn, follow these simple steps:
 3. Start the application: `npm start`
 4. Setup environment variables
 5. Access Saturn in your browser at `http://localhost:3000`
+
+## Directory structure
+
+```
+/
+  ├── src/
+    ├── core                contains core configurations, utils and functions used throughout
+    ├── delivery            responsible for handling incoming requests and delivering responses
+    ├── domains             domain driven design subdirectories for each domain covering business logic
+    ├── external            external integrations, services, third party APIs and data sources
+    └── internal            internal components like background jobs, message queue servers etc
+  └── tsconfig.json               typescript configs
+
+```
 
 ## Usage
 
