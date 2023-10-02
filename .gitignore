@@ -1,0 +1,32 @@
+# NOT COPIED FROM MINDWEBS
+
+# Logs
+logs
+
+# Dependency directories
+node_modules/
+
+# TypeScript declaration files
+typings/
+package-lock.json
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.development
+
+# tsc output
+/build
+
+# typedoc output
+docs/
+
+# ui inspirations
+/inpirations

@@ -1,0 +1,37 @@
+{
+  "name": "saturn",
+  "version": "0.0.0",
+  "description": "A fun project management tool by two rejected backend developers",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/singhayushh/saturn.git"
+  },
+  "keywords": [
+    "project-management",
+    "singhayushh",
+    "ant-ghost",
+    "rebellion"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/singhayushh?country.x=IN&locale.x=en_GB"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "private": true,
+  "author": "singhayushh <coding.ayush@gmail.com>",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/singhayushh/saturn/issues",
+    "email": "coding.ayush@gmail.com"
+  },
+  "homepage": "https://github.com/singhayushh/saturn#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
